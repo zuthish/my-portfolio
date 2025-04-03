@@ -10,7 +10,7 @@
     <header>
         <h1>This is my portfolio</h1> 
         <h4>Welcome to a showcase of my portfolio where you can find out:</h4>
-      <!--<img src="" alt=""> -->
+        <!--img src="images/nature.jpg" alt=""-->
         <nav>
             <ul>
                 <li>
@@ -41,8 +41,9 @@
         </section>
 
         <section  id="myinterests">
-            <h2>My interests</h2>
+            <h3>My interests</h3>
             <ul>
+                <li>Mobile,Web and Software development</li>
                 <li>Attending tech conferences</li>
                 <li>listening to tech podcasts</li>
                 <li>Crocheting</li>
@@ -52,17 +53,59 @@
          </section>
 
          <section  id="bucketlist">
-            <h2>My bucket list</h2>
-            <p>
-                loading...
-            </p>
+            <h3>My bucket list</h3>
+            <table border="1"> 
+                <!--Table row-->
+                <tr>
+                    <!--Table heading-->
+                    <th>Description</th>
+                    <th>Reason</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <!--Table data-->
+                    <td>Do voice overs</td>
+                    <td>I love to inform</td>
+                    <td>Not started</td>
+                </tr>
+                <tr>
+                    <td>Cast in cartoon movies ,plays etc</td>
+                    <td>It has always been my dream</td>
+                    <td>Not started</td>
+                </tr>
+                <tr>
+                    <td>Travel to Denmark</td>
+                    <td>It ranks amoung the happiest countries</td>
+                    <td>Not started</td>
+                </tr>
+                <tr>
+                    <td>Learn Nigerian Pidgin</td>
+                    <td>I love the tonality</td>
+                    <td>In progress</td>
+                </tr>
+                <tr>
+                    <td>Play any sport</td>
+                    <td>For dicipline and to live healthily</td>
+                    <td>Not started</td>
+                </tr>
+            </table>
             <hr>
          </section>
 
          <section  id="contactme">
-            <h2>Please fill to contact me</h2>
-            <p>loading...
-            </p>
+            <h3>Please fill to contact me</h3>
+            <form >
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" email="email"><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message"></textarea><br>
+
+                <button type="submit">Submit</button>
+           </form>
             <hr>
          </section>
     </main>
