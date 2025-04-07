@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nozi's Portfolio</title>
     <meta charset="UTF-8">
-    <!--This tells the browser how to scaling and dimension should be-->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>This is my portfolio</h1> 
-        <h4>Welcome to a showcase of my portfolio where you can find out:</h4>
+        <div class="logo">
+            <div class="logo-text">Nozipho Zitha </div>
+        </div>
         <nav>
-                    <!--TODO- Add header and footer to all these pages-->
-                    <a href="/aboutme.html">About me</a> 
-                    <a href="/myinterests.html">My interests</a> 
-                    <a href="/bucketlist.html"> My bucket list</a> and
-                    <a href="/contactme.html">Contact me</a>      
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="myinterests.html">Interests</a></li>
+                <li><a href="bucketlist.html">Bucket List</a></li>
+                <li><a href="contactme.html">Contact</a></li>
+            </ul>
         </nav>
-        <hr>
     </header>
+
     <main>
-        <section>
-            <img src="images/IMG-20240128-WA0056.jpg" alt="">
-        </section>  
+        <section class="hero">
+            <h1>Welcome to My Personal Portfolio</h1>
+            <p>Web Developer & Creative Thinker</p>
+            <video width="640" height="360" controls>
+                <!--TODO - Add an actual video-->
+                <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+            </video>
+        </section>
     </main>
 
-    <!--TODO- Add icon to the links-->
     <footer>
-        <nav>
-            <a href="https://github.com/zuthish" target="_blank">github</a>
-            <a href="https://linkedin.com/in/nozipho-zitha-72852b1b3">linkedIn</a>
-        </nav>
+        <div class="social-links">
+            <a href="https://github.com/zuthish" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/nozipho-zitha-72852b13" target="_blank">LinkedIn</a>
+        </div>
     </footer>
 </body>
 </html>
